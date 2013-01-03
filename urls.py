@@ -1,6 +1,6 @@
 #encoding=utf-8
-from controller.Index import Index
+from controller import *
 
-urls = (
-        '/', 'Index',
-        )
+urls = [
+    ('/', HomeHandler)
+]
